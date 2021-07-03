@@ -1,0 +1,27 @@
+
+.controls{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+    .control{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: red;
+        margin: auto 10px;
+        transition: ease-in-out 1s;
+        box-shadow: 1px 1px 5px black;
+        &:hover{
+            transform: scale(1.4);
+        }
+        &.purple{
+            background-color: purple;
+        }
+        &.green{
+            background:green;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.palletes{
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 20px;
+
+    .pallete{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: black;
+        transition: ease .3s;
+        &.touch{
+            background-color: red;
+        }
+        &.primary{
+            background-color: rgb(36, 58, 68);
+        }
+        &.accent{
+            background-color: rgb(72, 41, 187);
+        }
+        &:hover{
+            transform: scale(1.3);
+        }
+    }
+}
